@@ -61,7 +61,7 @@ Resources:
       AllocatedStorage: !Ref DBAllocatedStorage
       Engine: MySQL
       KmsKeyId: ""
-      StorageEncrypted: true
+      StorageEncrypted: false
       AutoMinorVersionUpgrade: false
       EnableIAMDatabaseAuthentication: false
       PubliclyAccessible: true
