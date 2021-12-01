@@ -64,7 +64,7 @@ Resources:
       StorageEncrypted: true
       AutoMinorVersionUpgrade: false
       EnableIAMDatabaseAuthentication: false
-      PubliclyAccessible: true
+      PubliclyAccessible: false
       EnableCloudwatchLogsExports:
       # - audit
       # - error 
